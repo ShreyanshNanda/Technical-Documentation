@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navItems {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    
+}
+
+.navItems a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #4d4e53;
+}
+
+.navItems h2{
+    font-size: 2.5rem;
+    padding-left: 30%;
+}
+
+.mainContainer{
+    padding-left: 320px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    padding-top: 10px;
+}
+
+p{
+    padding: 10px;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.htmlBlock{
+    padding-left: 30px;
+}
+
+h3{
+    font-size: 1.4rem;
+    padding: 10px;
+    padding-left: 20px;
+}
+pre {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+li{
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-left: 80px;
+}
+
+.ExBld{
+    padding-top: 0px;
+}
+
+.hscroll {
+    padding-left: 20px;
+    line-height: 1.5;
+}
